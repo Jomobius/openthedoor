@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Chore Door!</title>
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class = "header">
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg" alt="">
+    </div>
+    <div class="title-row">
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg" alt="">
+      <!-- 注意两个img element对应两个星号，在其中的一个下面添加p tag的结果
+      现在一条线是因为display property被设置成了inline -->
+      <p class = "instructions-title">Instructions</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg" alt="">
+    </div>
+
+    <table class="instructions-row">
+      <tr>
+        <td class="instructions-number">1</td>
+        <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">2</td>
+        <td class="instructions-text">Your mission is to open all of the doors without running into the ChoreBot.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">3</td>
+        <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">4</td>
+        <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
+      </tr>
+    </table>
+
+
+    <div class ="door-row">
+        <img id = "door1" class = "door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+        <img id = "door2" class = "door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+        <img id = "door3" class = "door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+    </div>
+
+    <div id = "start">Good Luck!</div>
+  
+  <script type="text/javascript" src="./script.js"></script>
+<!-- 注意script所放置的位置，不然就没有效果 -->
+  </body>
+</html>
